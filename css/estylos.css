@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background: #142346;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .contenedor .logotipo{
+    width: 20%;
+    margin-top: 20px;
+    float: left;
+}
+
+header .contenedor .menu{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    float: left;
+    text-align: right;
+}
+
+header .contenedor .menu a{
+    margin: 18px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+header .contenedor .menu a:hover{
+    background: #ffffff;
+    color: #142346;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.main{
+    background: url("../img/CASTELNICA-PORTADA.jpg"), #7db6e3;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+    padding-top: 600px;
+}
+
+.main .quienes_somos{
+    /*margin-top: 50px;*/
+    margin-bottom: 70px;
+    color: #ffffff;
+}
+
+.main .quienes_somos .contenedor .texto h1{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.main .quienes_somos .contenedor .texto p{
+    text-align: center;
+    color: #a8bbd4;
+    margin: 20px 0 50px 0;
+    padding: 0 170px 0 170px;
+    font-size: 20px;
+}
+
+.main .quienes_somos .contenedor .foto1 img{
+    width: 22%;
+    height: auto;
+    float: left;
+    border-radius: 5px;
+}
+
+.main .quienes_somos .contenedor .texto2 p{
+    width: 70%;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    color: #a8bbd4;
+    font-size: 18px;
+}
+
+section .modelos_de_vivienda{
+    background: #1a4280;
+}
+
+.modelos_de_vivienda .contenedor h1{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: white;
+}
+
+.modelos_de_vivienda .contenedor .texto_modelos{
+    text-align: center;
+    color: #a8bbd4;
+    margin: 20px 0 50px 0;
+    padding: 0 170px 0 170px;
+    font-size: 20px;
+}
+
+.modelos_de_vivienda .contenedor .contenedor-modelos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.modelos_de_vivienda .contenedor .contenedor-modelos .modelo{
+    width: 23%;
+    margin-bottom: 60px;
+}
+
+.modelos_de_vivienda .contenedor .contenedor-modelos .modelo .thumb{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.modelos_de_vivienda .contenedor .contenedor-modelos .modelo .thumb img{
+    vertical-align: top;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.modelos_de_vivienda .contenedor .contenedor-modelos .modelo .descripcion{
+    text-align: center;
+    background: #8099d1;
+    border-radius: 10px;
+}
+
+.modelos_de_vivienda .contenedor .contenedor-modelos .modelo .descripcion .nombre{
+    color: #142346;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.modelos_de_vivienda .contenedor .contenedor-modelos .modelo .descripcion .area{
+    color: #142346;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.galeria_de_imagenes .contenedor .titulo{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: white;
+}
+
+.galeria_de_imagenes .contenedor .contenedor_imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria_de_imagenes .contenedor .contenedor_imagenes .galeria{
+    width: 23%;
+    margin-bottom: 60px;
+}
+
+.galeria_de_imagenes .contenedor .contenedor_imagenes .galeria img{
+    vertical-align: top;
+    width: 100%;
+    border-radius: 10px;
+}
+
+section .contacto{
+    background: #7db6e3;
+}
+
+section .contacto .contenedor .titulo{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: #142346;
+}
+
+section .contacto .contenedor .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section .contacto .contenedor .formulario input[type="text"],
+section .contacto .contenedor .formulario input[type="email"],
+section .contacto .contenedor .formulario textarea{
+    border: 2px solid #bbbbb8;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+
+section .contacto .contenedor .formulario input[type="text"],
+section .contacto .contenedor .formulario input[type="email"]{
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+section .contacto .contenedor .formulario textarea{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    margin-bottom: 15px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+section .contacto .contenedor .formulario .boton{
+    margin: 15px auto 40px auto;
+    background: #142346;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+
+section .contacto .contenedor .formulario .boton:hover{
+    background: #bbbbb8;
+    color: #142346;
+}
+
+footer{
+    background: #cbeeff;
+
+}
+
+footer .contenedor .oficina_central{
+    width: 50%;
+    color: #142346;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    float: left;
+    line-height: 40px;
+    padding: 0  20px 0 20px;
+}
+
+footer .contenedor .direccion_villa_casteleon{
+    width: 50%;
+    color: #142346;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    float: left;
+    line-height: 40px;
+    padding: 0  20px 0 20px;
+}
+
+footer .contenedor .oficina_central h1{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background: #142346;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+footer .contenedor .oficina_central h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer .contenedor .oficina_central p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 90px;
+}
+
+footer .contenedor .direccion_villa_casteleon h1{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background: #142346;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+footer .contenedor .direccion_villa_casteleon h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer .contenedor .direccion_villa_casteleon p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 90px;
+}
+
+@media screen and (max-width: 800px) {
+    header .contenedor .menu{
+        text-align: center;
+    }
+    .main .quienes_somos .modelos_de_vivienda .modelos_de_vivienda .galeria_de_imagenes .contacto{
+        width: 46%;
+    }
+}
